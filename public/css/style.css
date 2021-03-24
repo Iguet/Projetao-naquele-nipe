@@ -1,0 +1,82 @@
+
+.corpoShopp {
+    background-color: #8dc973;
+    background-image: url("../imagem/planoDeFundo.jpg");
+}
+
+.articleMain {
+    width: 100%;
+    height: 50%;
+}
+
+.postMain {
+    background-image: url("../imagem/pug.jpg");
+    width: 100%;
+    height: 400px;
+    background-position: center top;
+}
+
+.iconLupa{
+    color: white;
+}
+
+.pagAction {
+    border: 1px solid black;
+    background-color: #87c492;
+}
+
+.botaoPrincipal {
+    width: 100%;
+}
+
+.imagem{
+    background-image: url("../imagem/dog.png");
+    width: 100%;
+    height: 100%;
+}
+
+.cardIndex {
+    margin: 2%;
+}
+
+.card2{
+    margin-top: 5%;
+}
+
+.paragrafoCard{
+    color:black;
+}
+
+#container {
+    text-transform: capitalize;
+    padding: 30px;
+    color:forestgreen;
+}
+
+.paragraph{
+    color: forestgreen;
+    font-size: 22px;
+}
+
+.rodape{
+    margin-top: 10%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: forestgreen;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.paragraphFooter{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.imgNavBar {
+    max-height: 30px;
+}
+
+.iconNavBar {
+    margin-right: 35%;
+}
