@@ -1,5 +1,5 @@
 
-.corpoShopp {
+body {
     background-color: #8dc973;
     background-image: url("../img/planoDeFundo.jpg");
 }
@@ -16,7 +16,7 @@
     background-position: center top;
 }
 
-.iconLupa{
+.iconLupa {
     color: white;
 }
 
@@ -29,7 +29,7 @@
     width: 100%;
 }
 
-.imagem{
+.imagem {
     background-image: url("../img/dog.png");
     width: 100%;
     height: 100%;
@@ -39,26 +39,26 @@
     margin: 2%;
 }
 
-.card2{
+.card2 {
     margin-top: 5%;
 }
 
-.paragrafoCard{
-    color:black;
+.paragrafoCard {
+    color: black;
 }
 
 #container {
     text-transform: capitalize;
     padding: 30px;
-    color:forestgreen;
+    color: forestgreen;
 }
 
-.paragraph{
+.paragraph {
     color: forestgreen;
     font-size: 22px;
 }
 
-.rodape{
+.rodape {
     margin-top: 10%;
     width: 100%;
     height: 50px;
@@ -68,7 +68,7 @@
     border-radius: 30px;
 }
 
-.paragraphFooter{
+.paragraphFooter {
     font-size: 18px;
     margin-top: 20px;
 }

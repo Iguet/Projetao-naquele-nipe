@@ -1,10 +1,5 @@
-.corpoQuemSomos {
-    background-color: #8dc973;
-    background-image: url("../imagem/planoDeFundo.jpg")
-}
-
-.iconLupa{
-    color:white;
+.iconLupa {
+    color: white;
 }
 
 .pagAction {
@@ -38,22 +33,22 @@
     margin-bottom: 2%;
 }
 
-.especificacao{
+.especificacao {
     float: left;
     height: 300px;
     width: 600px;
     margin-top: 11%;
     margin-left: 2%;
-    background-color:forestgreen;
+    background-color: forestgreen;
     border-radius: 30px;
 }
 
-.cabecaoTextArea{
+.cabecaoTextArea {
     color: black;
-    text-align:center;
+    text-align: center;
     margin-top: 20px;
 }
 
-.listaBotao{
+.listaBotao {
     margin-top: 8%;
 }
