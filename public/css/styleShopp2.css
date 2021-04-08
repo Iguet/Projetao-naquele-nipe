@@ -1,0 +1,48 @@
+
+#navbarMain{
+    margin-bottom: 10%;
+}
+
+.corpoShopp {
+    background-color: #8dc973;
+    background-image: url("../img/cardPlanoDeFundo.jpg")
+}
+
+.primeiroCard{
+    margin-top: 2.5%;
+}
+
+.rodape {
+    margin-top: 2%;
+    margin-left: 50%;
+}
+
+.page-item2{
+    text-decoration: underline;
+}
+
+.segundoCard{
+    margin: 2%;
+}
+
+.primeiroCard {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.link1{
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.iconLupa{
+    color:white;
+}
+
+.imgNavBar{
+    max-height: 30px;
+}
+
+.iconNavBar {
+    margin-right: 35%;
+}

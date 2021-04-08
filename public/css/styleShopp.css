@@ -1,0 +1,58 @@
+
+#navbarMain{
+    margin-bottom: 5%;
+}
+
+.corpoShopp {
+    background-color: #8dc973;
+    background-image: url("../img/cardPlanoDeFundo.jpg")
+}
+
+.iconLupa {
+    color: white;
+}
+
+.pagAction {
+    border: 1px solid black;
+    background-color: #87c492;
+}
+
+.cabecalhoShopp {
+    color: forestgreen;
+    text-align: center;
+    margin-top: 2%;
+    text-transform: capitalize;
+}
+
+.segundoCard{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.rodape{
+    margin-top: 2%;
+    margin-left: 50%;
+}
+
+.page-item1{
+    text-decoration: underline;
+}
+
+.primeiroCard {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.link1{
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.imgNavBar {
+    max-height: 30px;
+}
+
+.iconNavBar {
+    margin-right: 35%;
+}
