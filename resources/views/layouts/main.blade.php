@@ -17,7 +17,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-success">
         <div class="container-fluid">
             <div class="espacamentoButtom">
-                <a class="navbar-brand" href="shopp.html">Quero Adotar</a>
+                <a class="navbar-brand" href="\shopp">Quero Adotar</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll"
