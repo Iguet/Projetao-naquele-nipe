@@ -7,7 +7,7 @@
             </div>
             <div class="botaoPrincipal">
                 <div class="d-grid gap-2">
-                    <a class="btn btn-dark" href="shopp.html" role="button" onmouseover="aumentaFonte(this)"
+                    <a class="btn btn-dark" href="/shopp" role="button" onmouseover="aumentaFonte(this)"
                        onmouseout="voltaNormal(this)">Adote Agora Seu Pet!</a>
                 </div>
             </div>
