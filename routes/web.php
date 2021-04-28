@@ -17,3 +17,11 @@ Route::get('/shopp', function () {
 Route::get('/shoppPag2', function () {
     return view('shopp2');
 })->name('shopp2');
+
+Route::get('/shopp/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/shopp/login/cadastro', function () {
+    return view('cadastro');
+})->name('cadastro');

@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/planoDeFundo_Cadastro.png");
+}
+
+.form_cadastro{
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.iconLupa {
+    color: white;
+}
+
+.iconNavBar{
+    height: 30px;
+    margin-right: 35%;
+}
+
+.imgNavBar{
+    height: 30px;
+    margin-right: 35%;
+}
+
+/* .tituloParaCadastro{
+    margin-top: 5%;
+    width: 80%;
+    height: 150px;
+    background-color: black;
+} */

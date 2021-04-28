@@ -56,11 +56,11 @@
     <div class="primeiroCard">
         <div class="card-group">
             <div class="card">
-                <a href="#">
+                <a href="/shopp/login">
                     <img src="{{ asset('img/akita.jpg') }}" class="card-img-top" alt="akita">
                 </a>
                 <div class="card-body">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <h5 class="card-title">Raça: Akita</h5>
                     </a>
                     <p class="card-text">Características: Leal, amigo e brincalhão</p>
@@ -69,11 +69,11 @@
                 </div>
             </div>
             <div class="card">
-                <a href="#">
+                <a href="/shopp/login">
                     <img src="../img/basset.jpg" class="card-img-top" alt="basset">
                 </a>
                 <div class="card-body">
-                    <a class="link1" href="#">
+                    <a class="link1" href="/shopp/login">
                         <h5 class="card-title">Raça: Basset hound</h5>
                     </a>
                     <p class="card-text">Características: Paciente, teimoso e charmoso</p>
@@ -82,11 +82,11 @@
                 </div>
             </div>
             <div class="card">
-                <a href="#">
+                <a href="/shopp/login">
                     <img src="../img/beagle.jpg" class="card-img-top" alt="beagle">
                 </a>
                 <div class="card-body">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <h5 class="card-title">Raça: Beagle</h5>
                     </a>
                     <p class="card-text">Características: Alegre, companheiro e aventureiro</p>
@@ -101,12 +101,12 @@
         <div class="card-group">
             <div class="card">
                 <div class="card2imagem1">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <img src="../img/nSeiOnome.jpg" class="card-img-top" alt="bichonFrise">
                     </a>
                 </div>
                 <div class="card-body">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <h5 class="card-title">Raça: Buldogue</h5>
                     </a>
                     <p class="card-text">Características: Calmo, divertido e dócil</p>
@@ -116,12 +116,12 @@
             </div>
             <div class="card">
                 <div class="card2imagem2">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <img src="../img/labrador.jpg" class="card-img-top" alt="borderCollie" style="height: 100%">
                     </a>
                 </div>
                 <div class="card-body">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <h5 class="card-title">Raça: Labrador retriever</h5>
                     </a>
                     <p class="card-text">Características: Inteligente, carinhoso e brincalhão</p>
@@ -131,12 +131,12 @@
             </div>
             <div class="card">
                 <div class="card2imagem3">
-                    <a href="#" class="link1">
+                    <a href="/shopp/login" class="link1">
                         <img src="../img/chowchow.jpg" class="card-img-top" alt="boxer">
                     </a>
                 </div>
                 <div class="card-body">
-                    <a class="link1" href="#">
+                    <a class="link1" href="/shopp/login">
                         <h5 class="card-title">Raça: Chow-chow</h5>
                     </a>
                     <p class="card-text">Características: Calmo, leal e orgulhoso</p>
