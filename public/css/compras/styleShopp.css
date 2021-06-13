@@ -3,9 +3,9 @@
     margin-bottom: 5%;
 }
 
-.corpoShopp {
+body {
     background-color: #8dc973;
-    background-image: url("../imagem/planoDeFundo.jpg")
+    background-image: url("/img/cardPlanoDeFundo.jpg");
 }
 
 .iconLupa {

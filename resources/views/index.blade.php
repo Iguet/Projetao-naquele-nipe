@@ -1,5 +1,9 @@
 ﻿@extends('layouts.main')
 
+@section('styles')
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}"/>
+@endsection
+
 @section('content')
     <section>
         <article class="articleMain">
@@ -7,8 +11,7 @@
             </div>
             <div class="botaoPrincipal">
                 <div class="d-grid gap-2">
-                    <a class="btn btn-dark" href="/shopp" role="button" onmouseover="aumentaFonte(this)"
-                       onmouseout="voltaNormal(this)">Adote Agora Seu Pet!</a>
+                    <a class="btn btn-dark" href="/shopp" role="button">Adote Agora Seu Pet!</a>
                 </div>
             </div>
         </article>
