@@ -2,29 +2,42 @@ body{
     background-image: url("../img/planoDeFundo_Cadastro.png");
 }
 
-.form_cadastro{
-    margin-top: 10%;
-    margin-left: 2%;
-    margin-right: 2%;
+h2
+{
+    text-align: center;
+    color: black;
 }
 
 .iconLupa {
     color: white;
 }
 
-.iconNavBar{
+.iconNavBar, .imgNavBar{
     height: 30px;
     margin-right: 35%;
 }
 
-.imgNavBar{
-    height: 30px;
-    margin-right: 35%;
+.img_header_card
+{
+    text-align: center;
+    background-color: forestgreen;
 }
 
-/* .tituloParaCadastro{
-    margin-top: 5%;
-    width: 80%;
-    height: 150px;
-    background-color: black;
-} */
+.img_card
+{
+    width: 100px;
+    height: 100px;
+}
+
+.title_card
+{
+    border: 2px solid rgb(25, 119, 30);
+    background-color: forestgreen;
+}
+
+
+#form_cadastro
+{
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Login-Usuário</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/style_login.css') }}" />
-        <link rel="shortcut icon" href="{{ asset('img/dog.png') }}">
-    </head>
-
+<head>
+    <meta charset="utf-8"/>
+    <title>Login-Usuário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style_login.css') }}" />
+    <link rel="shortcut icon" href="{{ asset('img/dog.png') }}">
+</head>
+<body>
     <div id="navbarMain">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-success">
             <div class="container-fluid">
@@ -45,30 +45,27 @@
                 </div>
             </div>
         </nav>
-    </div> 
+    </div>
 
-    <section div="login">
-        <header class="login_header">
-            <div class="imgCabecalho">
-                <img src="{{ asset('img/pug_login.png') }}" class="imgPrincipal">
+    <div class="container" id="container_login">
+        <div class="card">
+            <div class="card-header">
+                <h2>Login</h2>
+                <img src="{{ asset('img/pug_login.png') }}" class="img_pugLogin"/>
             </div>
-            <h1>Iniciar sessão. </h1>
-        </header>
-
-        <div class="formularioLogin">
-            <form class="formLogin">
-                <input class="form-control form-control-lg" type="email" placeholder="E-mail" name="email">
-                <br>
-                <input class="form-control form-control-lg" type="password" placeholder="Senha" name="senha">
-                <br>
-                <button type="submit" class="btn btn-dark" style="margin-left: 37%;">ENTRAR</button>
-                <br>
-            </form>
+            <div class="card-body">
+                <label>Digite seu e-mail:</label>
+                <input type="text" name="email" class="form-control">
+                <br><label>Digite sua senha:</label>
+                <input type="password" name="senha" class="form-control">
+                <div class="button_login">
+                    <br><button class="btn btn-success">INICIAR SESSÃO</button><br>
+                    <br><a href="/shopp/login/cadastro" class="btn btn-success">
+                        AINDA NÃO POSSUO CADASTRO
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="parteCadastro">
-            <p>
-                <a href="/shopp/login/cadastro" style="text-decoration: none; color: beige;">Ainda não possui cadastro? clique aqui!</a>
-            </p>
-        </div>
-    </section>
+    </div>
+</body>
 </html>

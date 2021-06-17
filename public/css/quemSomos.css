@@ -1,54 +1,66 @@
-.iconLupa {
-    color: white;
-}
-
-.pagAction {
-    border: 1px solid black;
-    background-color: #87c492;
-}
-
-.imgNavBar {
-    max-height: 30px;
-}
-
-.iconNavBar {
-    margin-right: 35%;
-}
-
-.cabecalhoMapa {
-    width: 600px;
-    height: 50px;
-    color: white;
+h3, h2, h1
+{
     text-align: center;
-    background-color: forestgreen;
-    margin-top: 10px;
-    border-radius: 5px;
+    color: forestgreen;
 }
 
-.mapaPai {
-    width: 600px;
-    margin-top: 10%;
-    float: right;
-    margin-right: 2%;
-    margin-bottom: 2%;
-}
-
-.especificacao {
+.map
+{
+    margin-bottom: 5vh;
+    margin-left: 5vh;
     float: left;
-    height: 300px;
-    width: 600px;
-    margin-top: 11%;
-    margin-left: 2%;
+}
+
+.map_ctga
+{
+    margin-bottom: 5vh;
+    margin-right: 2vh;
+    margin-left: 5vh;
+    float:left;   
+}
+
+.map_santaRita
+{
+    margin-bottom: 5vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    float:left; 
+}
+
+.map_header, .map_ctga_header, .map_SRM_header
+{
+    width: 400px;
+    height: 50px;
     background-color: forestgreen;
-    border-radius: 30px;
-}
-
-.cabecaoTextArea {
-    color: black;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1vh;
 }
 
-.listaBotao {
-    margin-top: 8%;
+.map_body, .map_ctga_body, .map_SRM_body
+{
+    height: 400px;
+    width: 400px;
+    border: 2px solid forestgreen;
+    margin-bottom: 5vh;
+}
+
+
+#card_suggestion
+{
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+
+#card_img
+{
+    margin-top: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 5vh;
+}
+
+#img_Igor, #img_lucca, #img_Diego, #img_Alexia, #img_Sandro
+{
+    width: 280px;
+    height: 290px;
 }

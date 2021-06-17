@@ -48,55 +48,50 @@
             </nav>
         </div>
 
-        <section class="tituloParaCadastro">
-          <h1>Titulo para cadastro</h1>
-        </section>
-
-        <div class="form_cadastro">
-            <form class="row g-3">
-                <div class="col-md-6">
-                  <label class="form-label" style="color: beige;">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
+        <div class="container" id="form_cadastro">
+          <form method="POST" action="#">
+            <div class="card" id="card_register">
+              <div class="card-header" id="header_register">
+                <div class="title_card">
+                  <h2>FAÇA SEU CADASTRO, E FAÇA A DIFERENÇA !</h2>
                 </div>
-                <div class="col-md-6">
-                  <label class="form-label" style="color: beige;">Senha</label>
-                  <input type="password" class="form-control" id="inputPassword4">
+                <div class="img_header_card">
+                  <img src="{{ asset('img/dog.png') }}" class="img_card"/>
                 </div>
-                <div class="col-12">
-                  <label class="form-label" style="color: beige;">Logradouro</label>
-                  <input type="text" class="form-control" id="inputAddress">
-                </div>
-                <div class="col-12">
-                  <label class="form-label" style="color: beige;">Complemento</label>
-                  <input type="text" class="form-control" id="inputAddress2">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label" style="color: beige;">Cidade</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                  <label class="form-label" style="color: beige;">Estado</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>MG</option>
-                    <option>SP</option>
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label class="form-label" style="color: beige;">Telefone</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" style="color: beige;">
-                       Enivar Notificações por e-mail
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button type="submit" class="btn btn-primary">Cadastrar</button>
-                </div>
-            </form>
+                <hr>
+              </div>
+              <div class="card-body">
+                <label>Digite seu nome:</label>
+                <input type="text" name="nome" class="form-control"/>
+                <br><label>Digite seu e-mail:</label>
+                <input type="email" name="email" class="form-control"/>
+                <br><label>Confirme seu e-mail:</label>
+                <input type="email" name="confirmeEmail" class="form-control"/>
+                <br><label>Digite seu CPF:</label>
+                <input type="text" name="cpf" class="form-control"/>
+                <br><label>Digite sua Senha:</label>
+                <input type="password" name="senha" class="form-control"/>
+                <br><label>Confirme sua Senha:</label>
+                <input type="password" name="confirmeSenha" class="form-control"/>
+                <hr>
+                <label>Selecione o seu Município de Residência: </label>
+                <br><select class="form-select">
+                  <option selected disabled>Selecione o Município</option>
+                  <option value="1">Caratinga</option>
+                  <option value="2">Vargem Alegre</option>
+                  <option value="3">Ipatinga</option>
+                  <option value="4">Bom Jesus</option>
+                  <option value="5">Santa Rita</option>
+                <br></select>
+                <br><label>Digite o seu CEP:</label>
+                <input type="text" name="cpf" class="form-control"/>
+                <hr>
+                <input class="form-check-input" type="checkbox" name="notificacoes">
+                <label class="form-check-label"><b>Notificações por email.</b></label><br>
+                <br><button type="button" class="btn btn-success">ENVIAR</button>
+              </div>
+            </div>
+          </form>
         </div>
     </body>
 </html>
