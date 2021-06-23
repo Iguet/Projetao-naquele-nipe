@@ -3,13 +3,18 @@
     margin-bottom: 10%;
 }
 
-.corpoShopp {
+body {
     background-color: #8dc973;
-    background-image: url("../imagem/planoDeFundo.jpg")
+    background-image: url("/img/cardPlanoDeFundo.jpg");
 }
 
 .primeiroCard{
     margin-top: 2.5%;
+}
+
+.pagAction {
+    border: 1px solid black;
+    background-color: #87c492;
 }
 
 .rodape {

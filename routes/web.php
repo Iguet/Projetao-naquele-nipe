@@ -11,11 +11,11 @@ Route::get('/quem-somos', function () {
 })->name('quem-somos');
 
 Route::get('/shopp', function () {
-    return view('shopp');
+    return view('compras.shopp');
 })->name('shopp');
 
 Route::get('/shoppPag2', function () {
-    return view('shopp2');
+    return view('compras.shopp2');
 })->name('shopp2');
 
 Route::get('/shopp/login', function () {

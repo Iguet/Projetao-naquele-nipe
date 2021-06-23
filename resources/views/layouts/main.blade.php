@@ -6,7 +6,6 @@
     <title>NossoAmigoPet</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}"/>
     <link rel="shortcut icon" href="{{ asset('img/dog.png') }}">
     @yield('styles')
     <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
@@ -16,8 +15,8 @@
 <div id="navbarMain">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-success">
         <div class="container-fluid">
-            <div class="espacamentoButtom">
-                <a class="navbar-brand" href="\shopp">Quero Adotar</a>
+            <div class="espacamentoButtom {{ (\Illuminate\Support\Facades\Route::current()->uri == 'shopp' || \Illuminate\Support\Facades\Route::current()->uri == 'shoppPag2') ? 'pagAction' : '' }}">
+                <a class="navbar-brand" href="{{ route('shopp') }}">Quero Adotar</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll"
@@ -27,10 +26,12 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('quem-somos') }}">Quem Somos</a>
+                        <div class="{{ \Illuminate\Support\Facades\Route::current()->uri == 'quem-somos' ? 'pagAction' : ''}}">
+                            <a class="nav-link active" aria-current="page" href="{{ route('quem-somos') }}">Quem Somos</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <div class="pagAction">
+                        <div class="{{ \Illuminate\Support\Facades\Route::current()->uri == '/' ? 'pagAction' : ''}}">
                             <a class="nav-link" href="{{ url('/') }}">Menu</a>
                         </div>
                     </li>
